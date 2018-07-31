@@ -1,1 +1,1 @@
-# Project_11_Flickr_Gallery
+# Project_11_Flickr_Gallery_React
