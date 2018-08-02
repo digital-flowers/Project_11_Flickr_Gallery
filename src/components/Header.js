@@ -5,7 +5,7 @@ import Navmenu from './Navmenu';
 const Header = () => (
   <div>
     <h1>Flickr React Gallery</h1>
-    <Search />
+    <Search data={this.performSearch}/>
     <Navmenu />
   </div>
 );

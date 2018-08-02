@@ -10,14 +10,13 @@ const Container = props => {
   );
 
   return (
-    <div className="container">
-      <Header />
-        <h2>Results</h2>
-        <div className="photo-container">
-          <ul>
-            {pictures}
-          </ul>
-        </div>
+    <div>
+      <h2>Results</h2>
+      <div className="photo-container">
+        <ul>
+          {pictures}
+        </ul>
+      </div>
     </div>
   );
 }
