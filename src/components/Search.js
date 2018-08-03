@@ -1,20 +1,20 @@
 import React  from 'react';
 
-export default class SearchForm {
+const Search = props => {
 
   state = {
     searchText: ''
-  }
+  },
 
   onSearch = e => {
     this.setState({ searchText: e.target.value });
-  }
+  },
 
   handleSubmit = e => {
     e.preventDefault();
     this.props.onSearch(this.state.searchText);
     e.currentTarget.reset();
-  }
+  },
 
   render() {
     return(
