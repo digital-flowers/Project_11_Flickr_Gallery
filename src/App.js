@@ -27,10 +27,11 @@ class App extends Component {
   }
 
   render() {
+    console.log(this.state.pictures);
     return (
       <BrowserRouter>
         <div className="container">
-          <Header data={this.state.pictures}/>
+          <Header onSearch={this.performSearch} />
           <Container data={this.state.pictures}/>
         </div>
       </BrowserRouter>

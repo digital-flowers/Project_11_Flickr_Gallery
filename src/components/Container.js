@@ -6,7 +6,7 @@ const Container = props => {
 
   const results = props.data;
   let pictures = results.map(picture =>
-    <Gallery url={`https://farm${picture.farm}.staticflickr.com/${picture.server}/${picture.id}_${picture.secret}.jpg`}/>
+    <Gallery key={picture.id} url={`https://farm${picture.farm}.staticflickr.com/${picture.server}/${picture.id}_${picture.secret}.jpg`}/>
   );
 
   return (
