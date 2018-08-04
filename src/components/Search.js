@@ -1,7 +1,7 @@
 import React  from 'react';
 
 
-export default class SearchForm extends React.Component {
+class Search extends React.Component {
 
   state = {
     searchText: ''
@@ -35,3 +35,5 @@ export default class SearchForm extends React.Component {
     );
   }
 }
+
+export default Search;
