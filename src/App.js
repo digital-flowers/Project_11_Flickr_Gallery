@@ -43,7 +43,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="container">
-          <Header onSearch={this.performSearch}/>
+          <Header data={this.state.pictures}/>
           <Container />
         </div>
       </BrowserRouter>
