@@ -15,6 +15,8 @@ class Search extends React.Component {
     e.preventDefault();
     this.props.onSearch(this.state.searchText);
     e.currentTarget.reset();
+    //let searchUrl = '/search/' + this.query.value;
+		//this.props.history.push(searchUrl);
   }
 
   render() {
